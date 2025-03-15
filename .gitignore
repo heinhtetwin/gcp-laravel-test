@@ -1,0 +1,10 @@
+.gcp
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform-provider-gcp
+terraform-provider-google
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+testing
