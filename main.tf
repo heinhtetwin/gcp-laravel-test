@@ -1,7 +1,7 @@
 provider "google" {
   project     = var.project_id
   region      = var.region
-  credentials = file("./.gcp/terraform-key.json")
+  credentials = base64decode(env("GOOGLE_CREDENTIALS_B64"))
 }
 
 # Network
