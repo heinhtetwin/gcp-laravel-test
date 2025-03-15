@@ -1,7 +1,6 @@
 provider "google" {
-  project     = var.project_id
-  region      = var.region
-  credentials = base64decode(env("GOOGLE_CREDENTIALS_B64"))
+  project = var.project_id
+  region  = var.region
 }
 
 # Network
